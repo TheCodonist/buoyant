@@ -13,13 +13,13 @@ Minimal jQuery plugin for Floating Background Particles
 * fps: 60,
 * numberOfItems: 4,
 * minRadius: 10,
-            maxRadius: 40,
-            minSpeed: 20,
-            maxSpeed: 70,
-            collisionEfficiency: 1,
-            gravity: 0,
-            trails: false,
-            colliding: false
+* maxRadius: 40,
+* minSpeed: 20,
+* maxSpeed: 70,
+* collisionEfficiency: 1,
+* gravity: 0,
+* trails: false,
+* colliding: false
           
 
 ## Example
