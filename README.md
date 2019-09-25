@@ -23,12 +23,20 @@ Minimal jQuery plugin for Floating Background Particles
           
 
 ## Example
+https://hamayunaziz.github.io/
 
 ### CSS
 
 ```css
 .circles{
   display: block;
+  width:20px;
+  height: 20px;
+  background: #fff;
+  border-radius:50%;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
 }
 ```
 
@@ -39,5 +47,6 @@ Minimal jQuery plugin for Floating Background Particles
             minRadius: 5,
             maxRadius: 25,
             elementClass: 'circles'
+
         });
 ```
