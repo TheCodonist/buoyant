@@ -46,6 +46,7 @@
             this.x = x;
             this.y = y;
             this.r = r;
+            this.m = Math.PI * r * r;
             this.w = r * 2;
             this.h = r * 2;
             this.vx = vx;
@@ -192,6 +193,7 @@
                     }
                 }
             }
+
 
             //draw balls
             for (i in balls) {

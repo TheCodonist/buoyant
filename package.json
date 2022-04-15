@@ -1,0 +1,34 @@
+{
+  "name": "buoyant",
+  "version": "1.0.0",
+  "description": "a jquery plugin for animating bubbles in background.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "devDependencies": {
+    "gulp-connect": "^5.7.0"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamayunaziz/buoyant.git"
+  },
+  "keywords": [
+    "buoyant",
+    "animation",
+    "codonist"
+  ],
+  "author": "Codonist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamayunaziz/buoyant/issues"
+  },
+  "homepage": "https://github.com/hamayunaziz/buoyant#readme"
+}
