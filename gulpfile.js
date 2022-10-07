@@ -15,7 +15,7 @@ gulp.task('watch', function (cb) {
 function defaultTask(cb) {
 	connect.server({
 		port: 4200,
-		root: '',
+		root: 'dist',
 		livereload: true
 	});
 	return gulp.watch('src/*.js', gulp.series('watch'));
